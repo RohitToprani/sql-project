@@ -1,0 +1,21 @@
+Total sales
+SELECT SUM(amount) FROM orders;
+
+Total Sales by city
+SELECT city, SUM(amount)
+FROM orders
+GROUP BY city;
+
+Highest sales city
+SELECT city, SUM(amount)
+FROM orders
+GROUP BY city
+ORDER BY SUM(amount) DESC
+LIMIT 1;
+
+
+Count orders by status
+Select status, count(*)
+From orders
+Group by status;
+
