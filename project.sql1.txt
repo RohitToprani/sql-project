@@ -1,25 +1,25 @@
--- Total Sales
+Total Sales
 SELECT SUM(amount) FROM orders;
 
--- Sales by City
+Sales by City
 SELECT city, SUM(amount)
 FROM orders
 GROUP BY city;
 
--- Orders by Status
+Orders by Status
 SELECT status, COUNT(*)
 FROM orders
 GROUP BY status;
 
--- Highest Order Amount
+Highest Order Amount
 SELECT MAX(amount) FROM orders;
 
--- Delivered Orders
+Delivered Orders
 SELECT *
 FROM orders
 WHERE status = 'Delivered';
 
--- Top City by Sales
+Top City by Sales
 SELECT city, SUM(amount)
 FROM orders
 GROUP BY city
