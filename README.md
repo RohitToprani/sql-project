@@ -6,12 +6,12 @@ Tools Used
 - SQL (SQLite)
 
 Tasks Performed
-- Calculated total sales using SUM()
-- Analyzed sales by city using GROUP BY
-- Counted orders by status
-- Identified highest order amount using MAX()
-- Filtered delivered orders using WHERE
-- Found top-performing city using ORDER BY and LIMIT
+Calculated total sales using SUM()
+Analyzed sales by city using GROUP BY
+Counted orders by status
+Identified highest order amount using MAX()
+Filtered delivered orders using WHERE
+Found top-performing city using ORDER BY and LIMIT
 
 Files
 - project.sql → contains all SQL queries used in analysis
