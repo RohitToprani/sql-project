@@ -1,11 +1,11 @@
-# 📊 SQL Data Analysis Project
+SQL Data Analysis Project
 
 This project demonstrates basic data analysis using SQL on an orders dataset.
 
-## 🔧 Tools Used
+Tools Used
 - SQL (SQLite)
 
-## 📌 Tasks Performed
+Tasks Performed
 - Calculated total sales using SUM()
 - Analyzed sales by city using GROUP BY
 - Counted orders by status
@@ -13,8 +13,8 @@ This project demonstrates basic data analysis using SQL on an orders dataset.
 - Filtered delivered orders using WHERE
 - Found top-performing city using ORDER BY and LIMIT
 
-## 📂 Files
+Files
 - project.sql → contains all SQL queries used in analysis
 
-## 🎯 Outcome
+Outcome
 This project shows my ability to analyze structured data using SQL and derive meaningful insights.
